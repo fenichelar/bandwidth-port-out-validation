@@ -1,0 +1,31 @@
+{
+  "name": "bandwidth-port-out-validation",
+  "description": "bandwidth-port-out-validation",
+  "author": "Alec Fenichel",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fenichelar/bandwidth-port-out-validation.git"
+  },
+  "scripts": {
+    "start": "pm2 startOrReload pm2.config.js",
+    "stop": "pm2 delete pm2.config.js",
+    "pm2": "pm2",
+    "lint": "node ./node_modules/eslint/bin/eslint ."
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "knex": "^0.16.5",
+    "lodash": "^4.17.11",
+    "mysql": "^2.17.1",
+    "pm2": "^3.5.0",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-no-unsafe-regex": "^1.0.0"
+  }
+}
