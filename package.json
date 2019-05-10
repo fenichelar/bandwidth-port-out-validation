@@ -1,6 +1,6 @@
 {
   "name": "bandwidth-port-out-validation",
-  "description": "bandwidth-port-out-validation",
+  "description": "Application for Bandwidth port out validation callback",
   "author": "Alec Fenichel",
   "license": "MIT",
   "version": "1.0.0",
