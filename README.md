@@ -34,7 +34,7 @@ CREATE TABLE `bandwidth-port-out-validation` (
     "host": "127.0.0.1",
     "port": 3306,
     "database": "bandwidth-port-out-validation",
-    "user": "root"
+    "user": "bandwidth-port-out-validation"
   }
 }
 ```
